@@ -1,0 +1,11 @@
+
+CREATE DATABASE `crud`CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+
+CREATE TABLE `tarefas`(
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `titulo` VARCHAR(255) NOT NULL,
+    `descricao` TEXT NOT NULL,
+    `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(`id`)
+) ENGINE = INNODB

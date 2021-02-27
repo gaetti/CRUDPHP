@@ -19,10 +19,10 @@
       <div class="card card-body">
         <form action="salvarTarefas.php" method="POST">
           <div class="form-group">
-            <input type="text" name="titulo" class="form-control" placeholder="titulo da tarefa" autofocus>
+            <input type="text" name="titulo" class="form-control" placeholder="titulo da tarefa" required autofocus>
           </div>
           <div class="form-group">
-            <textarea name="descricao" rows="2" class="form-control" placeholder="descrição da tarefa"></textarea>
+            <textarea name="descricao" rows="2" class="form-control" placeholder="descrição da tarefa" required></textarea>
           </div>
           <input type="submit" name="salvarTarefas" class="btn btn-success btn-block" value="Salvar">
         </form>
